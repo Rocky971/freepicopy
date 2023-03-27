@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
 
 * {
     box-sizing: border-box;
@@ -127,6 +128,15 @@
 
 }
 
+.latest_trends:hover .latest_img {
+    transform: scale(1.02);
+    transition: .5s;
+}
+
+.content_side_shadow {
+    box-shadow: 0 0 7px -4px;
+}
+
 /* footer */
 .insta {
     background: linear-gradient(29.61deg, #f38334, #da2e7d 50.39%, #6b54c6);
@@ -142,6 +152,10 @@
     display: block;
 }
 
+.outlet_footer {
+    height: calc(100vh - 80px);
+}
+
 /* slider */
 .publish_main {
     cursor: pointer;
@@ -155,4 +169,15 @@
 
 .publish_main:hover .publish_big {
     display: block;
+}
+
+/* referral */
+.socila-icon-shadow {
+    margin-top: 3px;
+    border: 2px solid #cfd9e0;
+    font-size: 20px;
+    padding: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -5,18 +5,6 @@ import UserInfo from './UserInfo';
 const toggle = <i className="fa-solid fa-bars"></i>;
 const NavBar = ({ toggleOpen, setToggleOpen }) => {
     const [openUser, setOpenUser] = useState(false);
-    // let menuRef = useRef();
-    // useEffect(() => {
-    //     let handler = (e) => {
-    //         if (!menuRef.current.contains(e.target)) {
-    //             setOpenUser(false);
-    //         }
-    //     };
-    //     document.addEventListener("mousedown", handler);
-    //     return () => {
-    //         document.addEventListener("mousedown", handler);
-    //     }
-    // })
     let menuRef = useRef()
     useEffect(() => {
         let handler = (e) => {

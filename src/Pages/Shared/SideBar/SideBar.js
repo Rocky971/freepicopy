@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 // import logo from '../../../assets/sidebar/e418cfe53773617e237f15fb02f027ea.svg';
 const logo = "https://static-contributor-fp.cdnpk.net/assets/e418cfe53773617e237f15fb02f027ea.svg"
 
@@ -24,11 +25,13 @@ const SideBar = ({ toggleOpen }) => {
                         <div className="item item-margin-cutom">
                             <a className={`sub-btn text-white ${open ? 'rounded-t-[8px] bg-[#ffffff1a] ' : 'rounded-[8px] text-[#bac8d3]'}`} onClick={() => setOpen(!open)}>Stats <span>{open ? close : open1}</span></a>
                             <div className={`sub-menu ${open ? 'block' : 'hidden'}`}>
-                                <a href="#" className='sub-item sub-menu-gen text-[#bac8d3]'>General</a>
+                                <Link to='/general' className='sub-item sub-menu-gen text-[#bac8d3]'>General</Link >
                                 <a href="#" className='sub-item sub-menu-cont text-[#bac8d3]'>Contributors ranking</a>
                             </div>
                         </div>
-                        <div className="item  mt-[3px]"><a className='rounded-[8px] text-[#bac8d3]' href="#">Search Trends</a></div>
+                        <div className="item  mt-[3px]">
+                            <Link to='/referral' className='rounded-[8px] text-[#bac8d3]'>Referral Program</Link>
+                        </div>
                     </div>
                 </nav>
             </aside>

@@ -7,7 +7,7 @@ const card4 = "https://img.freepik.com/free-photo/close-up-green-leaf-nerves_23-
 const ContentSidebar = () => {
     const commonClass = "text-[14px] font-semibold leading-[22px] text-[#374957] mb-[10px]"
     return (
-        <div className="">
+        <div className="mb-[30px]">
             <div className="border border-[#eff3f6 p-[15px] rounded-[8px] ml-[20px]">
                 <div className="">
                     <div className={commonClass}>

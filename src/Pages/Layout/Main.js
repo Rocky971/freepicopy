@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Outlet } from 'react-router-dom';
-import Footer from '../Shared/Footer/Footer';
 import NavBar from '../Shared/NavBar/NavBar';
 import SideBar from '../Shared/SideBar/SideBar';
 
@@ -13,8 +12,9 @@ const Main = () => {
             </div>
             <div className="w-full">
                 <NavBar toggleOpen={toggleOpen} setToggleOpen={setToggleOpen} />
-                <Outlet />
-                <Footer />
+                <div className="overflow-x-scroll outlet_footer hide-scroll-bar">
+                    <Outlet />
+                </div>
             </div>
         </div>
     );

@@ -3,11 +3,11 @@ import { AiOutlineInfoCircle, AiOutlineBarChart } from "react-icons/ai";
 import { FiDownload } from "react-icons/fi";
 const Perfomance = () => {
     return (
-        <div className='ml-[20px] mb-[20px]'>
+        <div className='ml-[20px] mb-[20px] mt-[24px]'>
             <div className="">
                 {/* heading */}
                 <div className="flex mb-[20px] justify-between">
-                    <p className='font-bold text-[16px] leading-[24px]'>Performance overview1</p>
+                    <p className='font-bold text-[16px] leading-[24px]'>Performance overview</p>
                     <div className="flex gap-2 items-center text-[#1273eb] text-[14px] font-bold">
                         <p>All data</p>
                         <span><i class="fa-solid fa-arrow-right-long"></i></span>
