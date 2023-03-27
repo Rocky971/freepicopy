@@ -20,13 +20,15 @@ const SideBar = ({ toggleOpen }) => {
                 {/* menu */}
                 <nav className='side-bar'>
                     <div className="menu">
-                        <div className="item"><a className='rounded-[8px] text-[#bac8d3]' href="#">Dashboard</a></div>
+                        <div className="item">
+                            <Link to="/" className='rounded-[8px] text-[#bac8d3]'>Dashboard</Link>
+                        </div>
                         <div className="item"><a className='rounded-[8px] text-[#bac8d3]' href="#">Files</a></div>
                         <div className="item item-margin-cutom">
                             <a className={`sub-btn text-white ${open ? 'rounded-t-[8px] bg-[#ffffff1a] ' : 'rounded-[8px] text-[#bac8d3]'}`} onClick={() => setOpen(!open)}>Stats <span>{open ? close : open1}</span></a>
                             <div className={`sub-menu ${open ? 'block' : 'hidden'}`}>
                                 <Link to='/general' className='sub-item sub-menu-gen text-[#bac8d3]'>General</Link >
-                                <a href="#" className='sub-item sub-menu-cont text-[#bac8d3]'>Contributors ranking</a>
+                                <Link to='/contributor' className='sub-item sub-menu-gen text-[#bac8d3]'>Contributors ranking</Link >
                             </div>
                         </div>
                         <div className="item  mt-[3px]">
