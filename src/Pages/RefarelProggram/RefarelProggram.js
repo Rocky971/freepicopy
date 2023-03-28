@@ -44,13 +44,13 @@ const RefarelProggram = () => {
                             </div>
                             <div className='w-[160px] flex gap-3'>
                                 <div className='socila-icon-shadow transition-all duration-300 hover:bg-[#3749570a]'>
-                                    <i class="fa-brands fa-facebook text-[#1273eb] cursor-pointer"></i>
+                                    <i className="fa-brands fa-facebook text-[#1273eb] cursor-pointer"></i>
                                 </div>
                                 <div className='socila-icon-shadow transition-all duration-300 hover:bg-[#3749570a]'>
-                                    <i class="fa-brands fa-whatsapp text-[#25D366] cursor-pointer"></i>
+                                    <i className="fa-brands fa-whatsapp text-[#25D366] cursor-pointer"></i>
                                 </div>
                                 <div className='socila-icon-shadow transition-all duration-300 hover:bg-[#3749570a]'>
-                                    <i class="fa-brands fa-linkedin text-[#0A66C2] cursor-pointer"></i>
+                                    <i className="fa-brands fa-linkedin text-[#0A66C2] cursor-pointer"></i>
                                 </div>
                             </div>
                         </div>
@@ -90,119 +90,149 @@ const RefarelProggram = () => {
             </div>
             <div className='md:w-[50%] w-full'>
                 <div ref={menuRef}>
-                    <div className='flex items-center relative ml-52'>
+                    {/* <div className='flex items-center relative ml-52'>
                         <p className='text-[#374957] font-[700]'>Filter</p>
                         <p onClick={() => setFilter(!filter)} className={`border w-[80px] py-1 flex justify-center gap-4 text-[#374957] rounded-lg ${filter && 'border-[#1273eb]'} cursor-pointer`}><span className='text-[14px] font-[700]'>All</span> <span>{!filter && <i className="fa-solid fa-caret-down text-[#374957]"></i>}</span></p>
                         <div className={`absolute z-0 bg-white top-11 -left-20 ${filter ? 'block' : 'hidden'}`}>
                             <div className='relative'>
-                                <i class="fa-solid fa-caret-up absolute -top-3 right-4 text-white text-[22px] z-50"></i>
+                                <i className="fa-solid fa-caret-up absolute -top-3 right-4 text-white text-[22px] z-50"></i>
                                 <div className='relative appBarTollTipShadow h-[220px] w-[200px] overflow-y-scroll '>
-                                    <ul className='filter-toltip'><li data-v-cad3f6d2="" className='' data-value="all" class="">
+                                    <ul className='filter-toltip'><li data-v-cad3f6d2="" className='' data-value="all" className="">
                                         All
-                                    </li><li data-v-cad3f6d2="" className='' data-value="2023-02-01" class="">
+                                    </li><li data-v-cad3f6d2="" className='' data-value="2023-02-01" className="">
                                             February 2023
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2023-01-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2023-01-01" className="">
                                             January 2023
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2022-12-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2022-12-01" className="">
                                             December 2022
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2022-11-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2022-11-01" className="">
                                             November 2022
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2022-10-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2022-10-01" className="">
                                             October 2022
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2022-09-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2022-09-01" className="">
                                             September 2022
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2022-08-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2022-08-01" className="">
                                             August 2022
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2022-07-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2022-07-01" className="">
                                             July 2022
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2022-06-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2022-06-01" className="">
                                             June 2022
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2022-05-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2022-05-01" className="">
                                             May 2022
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2022-04-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2022-04-01" className="">
                                             April 2022
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2022-03-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2022-03-01" className="">
                                             March 2022
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2022-02-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2022-02-01" className="">
                                             February 2022
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2022-01-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2022-01-01" className="">
                                             January 2022
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2021-12-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2021-12-01" className="">
                                             December 2021
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2021-11-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2021-11-01" className="">
                                             November 2021
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2021-10-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2021-10-01" className="">
                                             October 2021
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2021-09-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2021-09-01" className="">
                                             September 2021
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2021-08-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2021-08-01" className="">
                                             August 2021
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2021-07-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2021-07-01" className="">
                                             July 2021
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2021-06-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2021-06-01" className="">
                                             June 2021
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2021-05-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2021-05-01" className="">
                                             May 2021
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2021-04-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2021-04-01" className="">
                                             April 2021
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2021-03-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2021-03-01" className="">
                                             March 2021
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2021-02-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2021-02-01" className="">
                                             February 2021
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2021-01-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2021-01-01" className="">
                                             January 2021
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2020-12-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2020-12-01" className="">
                                             December 2020
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2020-11-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2020-11-01" className="">
                                             November 2020
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2020-10-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2020-10-01" className="">
                                             October 2020
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2020-09-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2020-09-01" className="">
                                             September 2020
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2020-08-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2020-08-01" className="">
                                             August 2020
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2020-07-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2020-07-01" className="">
                                             July 2020
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2020-06-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2020-06-01" className="">
                                             June 2020
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2020-05-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2020-05-01" className="">
                                             May 2020
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2020-04-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2020-04-01" className="">
                                             April 2020
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2020-03-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2020-03-01" className="">
                                             March 2020
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2020-02-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2020-02-01" className="">
                                             February 2020
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2020-01-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2020-01-01" className="">
                                             January 2020
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2019-12-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2019-12-01" className="">
                                             December 2019
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2019-11-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2019-11-01" className="">
                                             November 2019
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2019-10-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2019-10-01" className="">
                                             October 2019
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2019-09-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2019-09-01" className="">
                                             September 2019
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2019-08-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2019-08-01" className="">
                                             August 2019
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2019-07-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2019-07-01" className="">
                                             July 2019
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2019-06-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2019-06-01" className="">
                                             June 2019
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2019-05-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2019-05-01" className="">
                                             May 2019
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2019-04-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2019-04-01" className="">
                                             April 2019
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2019-03-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2019-03-01" className="">
                                             March 2019
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2019-02-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2019-02-01" className="">
                                             February 2019
-                                        </li><li data-v-cad3f6d2="" className='' data-value="2019-01-01" class="">
+                                        </li><li data-v-cad3f6d2="" className='' data-value="2019-01-01" className="">
                                             January 2019
                                         </li></ul>
                                 </div>
                             </div>
                         </div>
+                    </div> */}
+                    <div className="flex items-center relative justify-end mr-[160px]" >
+                        <div className="flex items-center gap-2">
+                            <div className="text-[16px] font-bold">
+                                <p>Filter</p>
+                            </div>
+                            <div onClick={() => setFilter(!filter)} className='border w-[80px] px-[3px] rounded-[8px] bg-slate-100 text-[#5F7D95] text-[16px] font-medium py-[5px] flex justify-between items-center cursor-pointer' >
+                                <p className='ml-[5px]'>All</p>
+                                <i className="fa-solid fa-caret-down mr-[10px]"></i>
+                            </div>
+                        </div>
+                        <div className={`absolute right-[0px] h-[224px] overflow-y-auto top-[50px] bg-white font-normal text-[16px] border rounded-[8px] w-[200px] px-[20px] py-[8px] shadow_select ${filter ? 'block' : 'hidden'}`}>
+                            <ul className='text-[#5F7D95]'>
+                                <div className="flex items-center">
+                                    <i className="fa-solid fa-check mr-[9px]"></i>
+                                    <li className='cursor-pointer'>All</li>
+                                </div>
+                                <li className='ml-[21px] my-[20px] cursor-pointer'>February 2023</li>
+                                <li className='ml-[21px] my-[20px] cursor-pointer'>January 2023</li>
+                                <li className='ml-[21px] my-[20px] cursor-pointer'>December 2022</li>
+                                <li className='ml-[21px] my-[20px] cursor-pointer'>November 2022</li>
+                                <li className='ml-[21px] my-[20px] cursor-pointer'>October 2022</li>
+                                <li className='ml-[21px] my-[20px] cursor-pointer'>September 2022</li>
+                                <li className='ml-[21px] my-[20px] cursor-pointer'>August 2022</li>
+                                <li className='ml-[21px] my-[20px] cursor-pointer'>July 2022</li>
+                                <li className='ml-[21px] my-[20px] cursor-pointer'>June 2022</li>
+                                <li className='ml-[21px] my-[20px] cursor-pointer'>May 2022</li>
+                            </ul>
+                        </div>
+                        {/* <i className="fa-solid fa-caret-up absolute top-[-10px] text-[24px] right-[10px] text-black"></i> */}
                     </div>
                 </div>
                 <div className='border rounded-md mt-5'>

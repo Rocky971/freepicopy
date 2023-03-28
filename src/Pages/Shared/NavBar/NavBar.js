@@ -14,7 +14,7 @@ const NavBar = ({ toggleOpen, setToggleOpen }) => {
         }
         document.addEventListener("mousedown", handler);
         return () => {
-            document.addEventListener("mousedown", handler);
+            document.removeEventListener("mousedown", handler);
         }
     }, [])
     return (

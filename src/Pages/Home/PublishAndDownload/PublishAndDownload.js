@@ -23,7 +23,7 @@ const PublishAndDownload = () => {
                         <p className='font-bold text-[16px] leading-[24px]'>Published files</p>
                         <div className="flex gap-2 items-center text-[#1273eb] text-[14px] font-bold">
                             <p>All files</p>
-                            <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                            <span><i className="fa-solid fa-arrow-right-long"></i></span>
                         </div>
                     </div>
                     <div className="">
@@ -43,7 +43,7 @@ const PublishAndDownload = () => {
                                                 <img src={publishedImage} className="h-[115px] w-[115px] p-[10px]" alt="" />
                                                 <div className="absolute top-[-70px] left-[120px]  w-[260px] p-[10px] bg-white publish_big">
                                                     <img src={publishedImage} className="" alt="" />
-                                                    <i class="fa-solid fa-caret-left absolute top-[120px] text-[24px] text-[#fff] left-[-8px]"></i>
+                                                    <i className="fa-solid fa-caret-left absolute top-[120px] text-[24px] text-[#fff] left-[-8px]"></i>
                                                 </div>
                                             </div>
                                             <img src={crownImg} className="absolute w-[28px] h-[28px] top-2 left-2 bg-[#394755] p-[7px] rounded-[6px]" alt="" />
@@ -57,7 +57,7 @@ const PublishAndDownload = () => {
                                                 <img src={publishedImage2} className="h-[115px] w-[115px] p-[10px]" alt="" />
                                                 <div className="absolute top-[-70px] left-[120px]  w-[260px] p-[10px] bg-white publish_big">
                                                     <img src={publishedImage2} className="" alt="" />
-                                                    <i class="fa-solid fa-caret-left absolute top-[120px] text-[24px] text-[#fff] left-[-8px]"></i>
+                                                    <i className="fa-solid fa-caret-left absolute top-[120px] text-[24px] text-[#fff] left-[-8px]"></i>
                                                 </div>
                                             </div>
                                             <img src={crownImg} className="absolute w-[28px] h-[28px] top-2 left-2 bg-[#394755] p-[7px] rounded-[6px]" alt="" />
@@ -71,7 +71,7 @@ const PublishAndDownload = () => {
                                                 <img src={publishedImage3} className="h-[115px] w-[115px] p-[10px]" alt="" />
                                                 <div className="absolute top-[-70px] left-[120px]  w-[260px] p-[10px] bg-white publish_big">
                                                     <img src={publishedImage3} className="" alt="" />
-                                                    <i class="fa-solid fa-caret-left absolute top-[120px] text-[24px] text-[#fff] left-[-8px]"></i>
+                                                    <i className="fa-solid fa-caret-left absolute top-[120px] text-[24px] text-[#fff] left-[-8px]"></i>
                                                 </div>
                                             </div>
                                             <img src={crownImg} className="absolute w-[28px] h-[28px] top-2 left-2 bg-[#394755] p-[7px] rounded-[6px]" alt="" />
@@ -85,7 +85,7 @@ const PublishAndDownload = () => {
                                                 <img src={publishedImage4} className="h-[115px] w-[115px] p-[10px]" alt="" />
                                                 <div className="absolute top-[-70px] left-[120px]  w-[260px] p-[10px] bg-white publish_big">
                                                     <img src={publishedImage4} className="" alt="" />
-                                                    <i class="fa-solid fa-caret-left absolute top-[120px] text-[24px] text-[#fff] left-[-8px]"></i>
+                                                    <i className="fa-solid fa-caret-left absolute top-[120px] text-[24px] text-[#fff] left-[-8px]"></i>
                                                 </div>
                                             </div>
                                             <img src={crownImg} className="absolute w-[28px] h-[28px] top-2 left-2 bg-[#394755] p-[7px] rounded-[6px]" alt="" />
@@ -124,7 +124,7 @@ const PublishAndDownload = () => {
                                                     <img src={firstImage} className="h-[115px] w-[115px] p-[10px]" alt="" />
                                                     <div className="absolute top-[-70px] left-[120px]  w-[260px] bg-white publish_big">
                                                         <img src={firstImage} className="p-[10px]" alt="" />
-                                                        <i class="fa-solid fa-caret-left absolute top-[120px] text-[24px] text-[#fff] left-[-8px]"></i>
+                                                        <i className="fa-solid fa-caret-left absolute top-[120px] text-[24px] text-[#fff] left-[-8px]"></i>
                                                     </div>
                                                 </div>
                                                 <img src={crownImg} className="absolute w-[28px] h-[28px] top-2 left-2 bg-[#394755] p-[7px] rounded-[6px]" alt="" />
@@ -143,7 +143,7 @@ const PublishAndDownload = () => {
                                                     <img src={secondImage} className="h-[115px] w-[115px] p-[10px]" alt="" />
                                                     <div className="absolute top-[-70px] left-[120px]  w-[260px] bg-white publish_big">
                                                         <img src={secondImage} className="p-[10px]" alt="" />
-                                                        <i class="fa-solid fa-caret-left absolute top-[120px] text-[24px] text-[#fff] left-[-8px]"></i>
+                                                        <i className="fa-solid fa-caret-left absolute top-[120px] text-[24px] text-[#fff] left-[-8px]"></i>
                                                     </div>
                                                 </div>
                                                 <img src={crownImg} className="absolute w-[28px] h-[28px] top-2 left-2 bg-[#394755] p-[7px] rounded-[6px]" alt="" />
@@ -162,7 +162,7 @@ const PublishAndDownload = () => {
                                                     <img src={thirdImage} className="h-[115px] w-[115px] p-[10px]" alt="" />
                                                     <div className="absolute top-[-70px] left-[120px]  w-[260px] bg-white publish_big">
                                                         <img src={thirdImage} className="p-[10px]" alt="" />
-                                                        <i class="fa-solid fa-caret-left absolute top-[120px] text-[24px] text-[#fff] left-[-8px]"></i>
+                                                        <i className="fa-solid fa-caret-left absolute top-[120px] text-[24px] text-[#fff] left-[-8px]"></i>
                                                     </div>
                                                 </div>
                                                 <img src={crownImg} className="absolute w-[28px] h-[28px] top-2 left-2 bg-[#394755] p-[7px] rounded-[6px]" alt="" />
@@ -181,7 +181,7 @@ const PublishAndDownload = () => {
                                                     <img src={fourthImage} className="h-[115px] w-[115px] p-[10px]" alt="" />
                                                     <div className="absolute top-[-70px] left-[120px]  w-[260px] bg-white publish_big">
                                                         <img src={fourthImage} className="p-[10px]" alt="" />
-                                                        <i class="fa-solid fa-caret-left absolute top-[120px] text-[24px] text-[#fff] left-[-8px]"></i>
+                                                        <i className="fa-solid fa-caret-left absolute top-[120px] text-[24px] text-[#fff] left-[-8px]"></i>
                                                     </div>
                                                 </div>
                                                 <img src={crownImg} className="absolute w-[28px] h-[28px] top-2 left-2 bg-[#394755] p-[7px] rounded-[6px]" alt="" />

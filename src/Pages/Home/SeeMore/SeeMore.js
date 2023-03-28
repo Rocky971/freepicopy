@@ -9,7 +9,7 @@ const SeeMore = () => {
                         <p>See more</p>
                         <p>articles</p>
                     </div>
-                    <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                    <span><i className="fa-solid fa-arrow-right-long"></i></span>
                 </div>
             </div>
         </div>

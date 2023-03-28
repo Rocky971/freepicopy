@@ -21,7 +21,7 @@ const ContentSidebar = () => {
                     {/* *** */}
                     <div className="flex items-center flex-wrap">
                         <button className='border-2 border-[#5f7d95] rounded-[8px] px-[14px] text-[14px] font-semibold text-[#5f7d95] py-[3px]'>
-                            <i class="fa-solid fa-arrow-up-right-from-square mr-[5px]"></i>
+                            <i className="fa-solid fa-arrow-up-right-from-square mr-[5px]"></i>
                             See Calendar
                         </button>
                         <div className="">
@@ -43,12 +43,12 @@ const ContentSidebar = () => {
                                     <p className='text-[#374957]'>Passover</p>
                                     <div className="flex justify-between">
                                         <div className="flex text-[#869fb2]">
-                                            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                                            <span><i className="fa-solid fa-magnifying-glass"></i></span>
                                             <p>80 K</p>
                                         </div>
                                         <div className="mr-2">
                                             <span className='festive_card'>
-                                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                                <i className="fa-solid fa-arrow-up-right-from-square"></i>
                                             </span>
                                         </div>
                                     </div>
@@ -66,12 +66,12 @@ const ContentSidebar = () => {
                                     <p className='text-[#374957]'>World Health Day</p>
                                     <div className="flex justify-between">
                                         <div className="flex text-[#869fb2]">
-                                            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                                            <span><i className="fa-solid fa-magnifying-glass"></i></span>
                                             <p>281,5 K</p>
                                         </div>
                                         <div className="mr-2">
                                             <span className='festive_card'>
-                                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                                <i className="fa-solid fa-arrow-up-right-from-square"></i>
                                             </span>
                                         </div>
                                     </div>
@@ -89,12 +89,12 @@ const ContentSidebar = () => {
                                     <p className='text-[#374957]'>Easter</p>
                                     <div className="flex justify-between">
                                         <div className="flex text-[#869fb2]">
-                                            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                                            <span><i className="fa-solid fa-magnifying-glass"></i></span>
                                             <p>1,2 M</p>
                                         </div>
                                         <div className="mr-2">
                                             <span className='festive_card'>
-                                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                                <i className="fa-solid fa-arrow-up-right-from-square"></i>
                                             </span>
                                         </div>
                                     </div>
@@ -112,12 +112,12 @@ const ContentSidebar = () => {
                                     <p className='text-[#374957]'>Earth Day</p>
                                     <div className="flex justify-between">
                                         <div className="flex text-[#869fb2]">
-                                            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                                            <span><i className="fa-solid fa-magnifying-glass"></i></span>
                                             <p>1,1 M</p>
                                         </div>
                                         <div className="mr-2">
                                             <span className='festive_card'>
-                                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                                <i className="fa-solid fa-arrow-up-right-from-square"></i>
                                             </span>
                                         </div>
                                     </div>

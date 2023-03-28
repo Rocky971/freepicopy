@@ -33,7 +33,7 @@ const Contributor = () => {
                             </div>
                             <div className="py-[20px] px-[16px] flex justify-between">
                                 <div className="text-[16px] flex flex-col items-center">
-                                    <i class="fi fi-rr-resources"></i>
+                                    <i className="fi fi-rr-resources"></i>
                                     <p className='font-semibold'>{rank.files}3k</p>
                                 </div>
                                 <div className="text-[16px] flex justify-center flex-col items-center">
@@ -56,11 +56,11 @@ const Contributor = () => {
             <div className="py-[20px]">
                 <ul className='flex gap-1 items-center justify-center'>
                     <li className='py-[5px] px-[10px] text-[#1273eb] font-semibold text-[16px] cursor-pointer opacity-[.4]'>First</li>
-                    <li className='px-[20px] py-[12px] text-white font-normal bg-[#1273eb]  opacity-[.4] rounded-[3px] text-[16px]'><i class="fa-solid fa-chevron-left"></i></li>
+                    <li className='px-[20px] py-[12px] text-white font-normal bg-[#1273eb]  opacity-[.4] rounded-[3px] text-[16px]'><i className="fa-solid fa-chevron-left"></i></li>
                     <li className='px-[20px] py-[12px] text-white font-normal bg-[#0353a7] rounded-[3px] text-[16px]'>1</li>
                     <li className='px-[20px] py-[12px] text-white font-normal bg-[#1273eb] rounded-[3px] text-[16px]'>2</li>
                     <li className='px-[20px] py-[12px] text-white font-normal bg-[#1273eb] rounded-[3px] text-[16px]'>3</li>
-                    <li className='px-[20px] py-[12px] text-white font-normal bg-[#1273eb] rounded-[3px] text-[16px]'><i class="fa-solid fa-chevron-right"></i></li>
+                    <li className='px-[20px] py-[12px] text-white font-normal bg-[#1273eb] rounded-[3px] text-[16px]'><i className="fa-solid fa-chevron-right"></i></li>
                     <li className='py-[5px] px-[10px] text-[#1273eb] font-semibold text-[16px] cursor-pointer'>Last</li>
                 </ul>
             </div>

@@ -20,7 +20,7 @@ const HallOfFame = () => {
                 </div>
                 <div className="text-[14px] mb-[20px] flex justify-between items-center">
                     <p>These artists are on the top of the ranking</p>
-                    <i class="fa-solid fa-chevron-right bg-[#0161cd] p-[10px] rounded-[3px] text-white cursor-pointer"></i>
+                    <i className="fa-solid fa-chevron-right bg-[#0161cd] p-[10px] rounded-[3px] text-white cursor-pointer"></i>
                 </div>
             </div>
             <div className='ml-3'>

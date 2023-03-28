@@ -39,7 +39,7 @@ const Footer = () => {
                 {/* ***** */}
                 <div className="">
                     <h4 className='text-[#4a6375] text-[16px] font-bold mb-[10px] tracking-[.5px] leading-[17px]'>FOLLOW US</h4>
-                    <i class="fa-brands fa-square-instagram insta text-white text-[20px] rounded-[3px] p-[9px]"></i>
+                    <i className="fa-brands fa-square-instagram insta text-white text-[20px] rounded-[3px] p-[9px]"></i>
                 </div>
             </div>
             <div className="flex items-center justify-between">
@@ -53,11 +53,11 @@ const Footer = () => {
                 </div>
                 <div className="mr-5">
                     <button className='border-2 px-[17px] py-[5px] border-[#4A6375] rounded-[8px] font-semibold text-[20px] text-[#4A6375]'>
-                        <i class="fa-solid fa-earth-americas mr-1"></i> EN
+                        <i className="fa-solid fa-earth-americas mr-1"></i> EN
                     </button>
                 </div>
             </div>
-            <div className="flex justify-between mt-[60px] mb-[5px]">
+            <div className="flex flex-wrap justify-between mt-[60px] mb-[5px]">
                 <div className={footerLast}>
                     <p>Freepikcompany projects</p>
                 </div>

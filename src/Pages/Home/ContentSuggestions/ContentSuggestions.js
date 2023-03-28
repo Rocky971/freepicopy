@@ -17,7 +17,7 @@ const ContentSuggestions = () => {
                     </div>
                     {/* button */}
                     <div className=" font-semibold cursor-pointer ">
-                        <button className='text-[#1273eb] border-2 border-[#1273eb] rounded-[3px] px-[30px] h-[44px] text-[16px]'><i class="fa-solid fa-fire-flame-curved mr-[10px]"></i> Search trends</button>
+                        <button className='text-[#1273eb] border-2 border-[#1273eb] rounded-[3px] px-[30px] h-[44px] text-[16px]'><i className="fa-solid fa-fire-flame-curved mr-[10px]"></i> Search trends</button>
                     </div>
                     {/* more_button */}
                     <div className="mt-[30px]">

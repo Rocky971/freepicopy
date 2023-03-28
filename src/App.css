@@ -121,6 +121,12 @@
     width: calc(99vw - 620px);
 }
 
+@media (max-width:1024px) {
+    .main-dashboard {
+        width: 100vw !important;
+    }
+}
+
 /* home */
 /* slider */
 .slide-shadow {
@@ -180,4 +186,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.shadow_select {
+    box-shadow: 1px -5px 24px -15px;
 }

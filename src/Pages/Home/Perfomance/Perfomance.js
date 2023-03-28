@@ -10,7 +10,7 @@ const Perfomance = () => {
                     <p className='font-bold text-[16px] leading-[24px]'>Performance overview</p>
                     <div className="flex gap-2 items-center text-[#1273eb] text-[14px] font-bold">
                         <p>All data</p>
-                        <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                        <span><i className="fa-solid fa-arrow-right-long"></i></span>
                     </div>
                 </div>
                 {/* card */}
@@ -59,9 +59,9 @@ const Perfomance = () => {
                         <div className="flex justify-between items-center">
                             <div className="">
                                 <p className='font-semibold text-[12px] leading-[15px] text-[#5f7d95] mb-[2px]'>Last Month</p>
-                                <p className='text-[16px] font-bold leading-[24px] text-[#374957]'><i class="fa-solid fa-window-minimize"></i></p>
+                                <p className='text-[16px] font-bold leading-[24px] text-[#374957]'><i className="fa-solid fa-window-minimize"></i></p>
                             </div>
-                            <p className='text-[24px] text-[#fb5252]'><i class="fa-regular fa-heart"></i></p>
+                            <p className='text-[24px] text-[#fb5252]'><i className="fa-regular fa-heart"></i></p>
                         </div>
                     </div>
                     {/* single */}
@@ -77,7 +77,7 @@ const Perfomance = () => {
                                 <p className='font-semibold text-[12px] leading-[15px] text-[#5f7d95] mb-[2px]'>Last Month</p>
                                 <p className='text-[16px] font-bold leading-[24px] text-[#374957]'>475</p>
                             </div>
-                            <p className='text-[24px] text-[#5f7d95]'><i class="fa-regular fa-images"></i></p>
+                            <p className='text-[24px] text-[#5f7d95]'><i className="fa-regular fa-images"></i></p>
                         </div>
                     </div>
                 </div>
